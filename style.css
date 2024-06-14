@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-size: 200% 200%;
+        background-position: left center;
+    }
+    50% {
+        background-size: 200% 200%;
+        background-position: right center;
+    }
+    100% {
+        background-size: 200% 200%;
+        background-position: left center;
+    }
+}
+
+body {
+    background: linear-gradient(45deg, #615EFC, #D1D8C5, #7E8EF1, #EEEEEE);
+    background-size: 200% 200%;
+    animation: gradient-animation 10s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.register-box {
+    background: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+header img.logo {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #3a0ca3;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.5em;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1em;
+    color: #8c8c8c;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.terms {
+    font-size: 0.9em;
+    color: #8c8c8c;
+    margin-bottom: 20px;
+}
+
+.terms a {
+    color: #3a0ca3;
+    text-decoration: none;
+}
+
+button {
+    background: #3a0ca3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5f0dd1;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #8c8c8c;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #3a0ca3;
+    text-decoration: none;
+}
