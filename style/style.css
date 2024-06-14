@@ -119,3 +119,8 @@ footer a {
     color: #3a0ca3;
     text-decoration: none;
 }
+
+.continue{
+    text-decoration: none;
+    color: inherit; 
+}
